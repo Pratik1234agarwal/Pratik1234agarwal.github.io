@@ -1,0 +1,52 @@
+body{
+	background: linear-gradient(to right , yellow, violet);
+	color: rgba(210,56,36);
+}
+#answer{
+    font-size: 5em;
+	display: flex;
+	justify-content: center;
+    color: white;
+    font-weight: bold;
+
+}
+#exp
+{
+	background-color: linen;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	size: 1.5em;
+
+
+
+}
+#button{
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	padding :5px 10px;
+	margin-top: 20px;
+	color: white;
+	font-size: 1.5em;
+	border :red solid 2px;
+	font-weight: bold;
+
+}
+#button:hover{
+	background-color: blue;
+	size: 1.5em;
+	border:blue solid 2px;
+	font-size: 150%;
+	font-weight: bold;
+}
+h4
+{
+	font-size: 200%;
+	font-weight: bold;
+	font-color:purple;
+	font-family: "georgia";
+}
