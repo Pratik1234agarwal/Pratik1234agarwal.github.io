@@ -1,5 +1,5 @@
-let exp=document.getElementById("exp");
-let btn=document.getElementById("button");
+let exp=document.getElementById("basic-url");
+let btn=document.querySelector("button");
 let answer=document.getElementById("answer");
 let a=[];
 
@@ -7,6 +7,8 @@ let a=[];
 
 
 btn.addEventListener("click",function(){
+	//let reset=document.querySelector("p");
+	//reset.appendChild(document.createTextNode(""));
 	//console.log("Hello"+exp.value);
     for(items of exp.value)
 	{
@@ -39,6 +41,7 @@ btn.addEventListener("click",function(){
     	
 	}
 	
+	let reset=document.querySelector("p");
 	
 	answer.appendChild(document.createTextNode(a[0]));
     a=[];
