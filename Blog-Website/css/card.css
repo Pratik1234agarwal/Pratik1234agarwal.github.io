@@ -1,0 +1,100 @@
+
+
+/*.card{
+    padding:20px;
+    border:1px red solid;
+    border-radius: 10px;
+}*/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+}
+.c1{
+    grid-area:c1;
+}
+.c2{
+    grid-area:c2;
+}
+.c3{
+    grid-area:c3;
+}
+.c4{
+    grid-area:c4;
+}
+.c5{
+    grid-area:c5;
+}
+.c6{
+    grid-area:c6;
+}
+
+.card_one_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/ai_treat.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.card_two_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/ai_treat.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.card_three_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/ai_treat.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.card_four_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/AI_des.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.card_five_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/AI_des.jpg");
+    background-position: center;
+    background-size:cover;
+}
+.card_six_image{
+    width:100%;
+    height:60%;
+    background-image:url("../image/AI_des.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+.card_description{
+    padding-left:10px;
+}
+
+.card > .heading{
+    padding-left :10px;
+}
+
+.read_more{
+    font-size:0.7em;
+    color:blue;
+}
+
+.read_more:hover{
+    color:blue;
+    text-decoration:underline;
+}

@@ -1,0 +1,23 @@
+html{
+    /*scroll-behavior: smooth;*/
+}
+
+body{
+    margin:unset;
+    /*color: white;
+    margin:auto;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right:10px;*/
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+
+}
+
+a:hover{
+    color: #93867F;
+}

@@ -1,0 +1,92 @@
+
+.header{
+    grid-area:hd;
+    display: flex;
+    position:sticky;
+    background-color: wheat;
+    color : goldenrod;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+
+}
+
+.description{
+    background-image: url("../image/ai_back.gif");
+    background-position: center;
+    background-size: cover;
+    grid-area:des;
+    display: inline;
+    font-weight: bold;
+    color: white;
+    flex-direction:row;
+    padding:10px;
+    padding-left: 5%;
+    padding-right: 40%;
+    padding-bottom: 8%;
+}
+
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    width: 200px;
+    /*transition: all 0.5s;*/
+    cursor: pointer;
+    padding:10px;
+}
+
+.button:hover {
+    background-color: white;
+    border : 1px red solid;
+    color:orange;
+}
+
+
+
+#ai{
+    font-size:4em;
+    text-decoration:underline #F4FDAF 1px;
+    font-weight: bolder;
+    color:white;
+}
+
+#des_button{
+    background-color: salmon;
+    border-radius: 5px;
+    border : 1px red solid;
+    width:100px;
+    height:30px;
+}
+
+#des_button:after{
+    width:10px;
+    height:20px;
+    border:none;
+}
+
+#des_button:hover{
+    background-color: inherit;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding :20px; 
+    color:white;
+    text-align: center;
+    background-color: brown;
+    grid-area: ft;
+}
+
+
+.post{
+    margin:10px;
+    padding:0px 10px 0px 10px;
+}
