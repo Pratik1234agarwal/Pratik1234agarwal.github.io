@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    margin:unset;
+    margin: inherit;
     /*color: white;
     margin:auto;
     margin-top: 15px;

@@ -34,7 +34,7 @@
     border: none;
     color: #FFFFFF;
     font-size: 1.2em;
-    width: 200px;
+    width: 10%px;
     /*transition: all 0.5s;*/
     cursor: pointer;
     padding:10px;
@@ -55,25 +55,6 @@
     color:white;
 }
 
-#des_button{
-    background-color: salmon;
-    border-radius: 5px;
-    border : 1px red solid;
-    width:100px;
-    height:30px;
-}
-
-#des_button:after{
-    width:10px;
-    height:20px;
-    border:none;
-}
-
-#des_button:hover{
-    background-color: inherit;
-}
-
-
 footer{
     display: flex;
     flex-direction: row;
@@ -89,4 +70,11 @@ footer{
 .post{
     margin:10px;
     padding:0px 10px 0px 10px;
+}
+
+
+.search{
+    border:none;
+    padding:5px;
+
 }
