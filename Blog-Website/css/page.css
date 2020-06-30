@@ -18,7 +18,7 @@
     background-size: cover;
     grid-area:des;
     display: inline;
-    font-weight: bold;
+    font-size:3vw;
     color: white;
     flex-direction:row;
     padding:10px;
@@ -49,10 +49,19 @@
 
 
 #ai{
-    font-size:4em;
+    font-size:7vw;
     text-decoration:underline #F4FDAF 1px;
     font-weight: bolder;
     color:white;
+}
+
+@media(min-width:900px){
+    #ai{
+        font-size:5vw;
+    }
+    .description{
+        font-size:2vw;
+    }
 }
 
 footer{
