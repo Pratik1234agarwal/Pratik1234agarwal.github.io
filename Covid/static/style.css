@@ -1,0 +1,126 @@
+
+
+body{
+    margin-top:5vh;
+    text-align:center;
+    background-color: #444;
+    color:white;
+    background-image:url('./images/cov.jpg');
+    background-position: center;
+}
+
+
+h1{
+    grid-area: heading;
+    color: white;
+    font-size: 6vw;
+    font-family:'Eczar','Rubik',sans-serif;
+    font-weight:bold;
+    background: -webkit-linear-gradient(#fd2d00, #df007c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation:fadeInDown;
+    animation-delay :0.5s;
+
+    /*box-shadow:0px 0px 5px 5px rgba(255, 255, 255, 0.795);*/
+
+}
+.form{
+    grid-area: main;
+    display:grid;
+    grid-gap:10vh;
+    font-family: 'Roboto',sans-serif;
+    color:#444;
+    margin:5vh;
+    font-size:4.3vh;
+    margin-top:10vh;
+}
+
+.question{
+    padding:10px;
+    background-color: rgb(155, 17, 7);
+    color:white;
+    box-shadow:0px 0px 5px 5px rgba(243, 110, 33, 0.5);
+}
+
+.question:nth-child(even){
+    background-color: #49111C;
+    color: white;
+    box-shadow:0px 0px 5px 5px rgba(218, 65, 238, 0.3);
+}
+
+
+.btn{
+    grid-area:button;
+    margin: 8vh 5vw 10vh 5vw;
+    padding:5vh 5vw;
+    border-radius:20px;
+    font-size:3vw;
+}
+
+
+footer{
+    grid-area:footer;
+    margin-top:30vh;
+    grid-area:footer;
+    background-color: saddlebrown;
+    text-align : center;
+    padding:5vw;
+    font-size:2em;
+    font-family:'Rubik',sans-serif;
+    background-image: url('./images/header1.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 0;
+
+}
+.back{
+    grid-area: main;
+    z-index: 1;
+}
+.back1{
+    grid-area:main;
+    background-color:rgba(0,0,0,0.5);
+    height:auto;
+    width:100vw;
+    z-index : 2;
+}
+
+.result{
+    grid-area:result;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(255,255,255,0.3);
+    z-index:3;
+    color:#c00;
+    font-size:10vh;
+    padding: 5px 10vw 5px 10vw;
+    margin : 0 5vw;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:yellow;
+}
+
+
+@media(max-width:900px){
+    .form{
+        font-size:3vh;
+    }
+    h1{
+        font-size:15vw;
+    }
+    .btn{
+        padding:5vw;
+        font-size:4vw;
+    }
+    .result{
+        padding: 5px 8vw 5px 8vw;
+        margin : 0 5vw 0 5vw;
+        font-size:10vw;
+    }
+}
